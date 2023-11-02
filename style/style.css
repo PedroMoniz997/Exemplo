@@ -106,7 +106,7 @@ color: white;
     color: white;
 }
 .banner .banner-text p{
-    font-size: 20px;
+    font-size: 105%;
    color: #ffffffb7; 
    font-weight: lighter;
    margin: 18px 0;
@@ -377,10 +377,7 @@ resize: none;
 @media (max-width: 830px) {
     body {
         overflow-x: hidden;
-        font-size: 15px;
-    }
-    h3 {
-        font-size: 20px;
+        font-size: 16px;
     }
     .ul {
         position: fixed;
@@ -416,7 +413,7 @@ resize: none;
         transition: clip-path 0.3s ease;
     }
     .banner .banner-text h1{
-        font-size: 80px;
+        font-size: 320%;
     }
     /*Pagina home responsivo*/
     .faca-mais .faca-mais-text{
@@ -429,7 +426,7 @@ resize: none;
 
     }
     .faca-mais .faca-mais-text h3{
-        font-size: 48px;
+        font-size: 240%;
     }
     .faca-mais .faca-mais-text,
     .faca-mais .faca-mais-img{
@@ -446,8 +443,7 @@ resize: none;
 
     }
     .banner.banner-text p{
-        font-size: 15px;
-        
+        font-size: 15px !important;
     }
     .depoimentos .card-intem {
         width: 100%;
@@ -465,7 +461,12 @@ resize: none;
         margin-top: 40PX;
     }
     h3 {
-        font-size: 240%;
+        font-size: 210%;
+    }
+    .contacto-info {
+        display: flex;
+        flex-direction: column;
+        width: 200%;
     }
     
 }
