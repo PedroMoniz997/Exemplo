@@ -367,7 +367,7 @@ cursor: pointer;
     margin-bottom: 10px;
     padding: 15px;
     width: 100%;
-resize: none;
+    resize: none;
 }
 .contacto-info .right-side button{
     border: none;
@@ -466,7 +466,16 @@ resize: none;
     .contacto-info {
         display: flex;
         flex-direction: column;
-        width: 200%;
+        width: 100%;
     }
-    
+    .contacto-info .right-side{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .contacto-info .left-side{
+        width: 100%;
+    }
+    .faca-mais-img .img{
+        
+    }
 }
